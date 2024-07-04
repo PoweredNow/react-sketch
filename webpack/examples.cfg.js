@@ -1,7 +1,6 @@
 const Paths = require('./paths');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const DefinePlugin = require('webpack/lib/DefinePlugin');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const OccurrenceOrderPlugin = require('webpack/lib/optimize/OccurrenceOrderPlugin');
 const AggressiveMergingPlugin = require('webpack/lib/optimize/AggressiveMergingPlugin');
 
@@ -34,7 +33,6 @@ const config = {
     ]
   },
   plugins: [
-    new UglifyJsPlugin(),
     new OccurrenceOrderPlugin(),
     new AggressiveMergingPlugin(),
     new DefinePlugin({
