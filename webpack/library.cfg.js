@@ -30,6 +30,9 @@ module.exports = {
     filename: 'index.js',
     libraryTarget: 'umd'
   },
+  optimization: {
+    minimize: false
+  },
   resolve: {
     extensions: ['.js', '.jsx']
   },
