@@ -36,6 +36,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx']
   },
+  externals: ['react', 'react/jsx-runtime', 'tslib', /@powerednow\/.*/],
   cache: true,
   module: {
     rules: [
