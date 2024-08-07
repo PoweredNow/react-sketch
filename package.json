@@ -130,6 +130,7 @@
     "weinre": "^2.0.0-pre-I0Z7U9OV"
   },
   "dependencies": {
+    "canvas": "^2.11.2",
     "fabric": "^4.1.0",
     "geometric": "^2.5.2",
     "overlap-area": "^1.1.0",
